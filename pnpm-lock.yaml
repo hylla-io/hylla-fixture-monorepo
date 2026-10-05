@@ -1,0 +1,17 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .: {}
+
+  web/money: {}
+
+  web/ui:
+    dependencies:
+      '@mono/money':
+        specifier: workspace:*
+        version: link:../money

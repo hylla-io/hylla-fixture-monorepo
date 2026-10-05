@@ -1,0 +1,5 @@
+[workspace]
+resolver = "3"
+members = ["crates/ledger"]
+# The desktop app crate is its own workspace, as a Tauri app crate often is.
+exclude = ["apps/desktop"]

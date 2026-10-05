@@ -1,0 +1,12 @@
+[package]
+name = "mono-desktop"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+description = "The desktop app crate of the monorepo fixture."
+publish = false
+
+[workspace]
+
+[dependencies]
+mono-ledger = { path = "../../crates/ledger" }
